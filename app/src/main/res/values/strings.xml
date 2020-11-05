@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">酒税計算ツール</string>
+    <string name="cost_of_servise">内容量</string>
+    <string name="unit_mililitter">mL</string>
+    <string name="how_was_the_servise">お酒の種類</string>
+    <string name="amazing_20">ビール</string>
+    <string name="good_18">発泡酒</string>
+    <string name="ok_15">新ジャンル</string>
+    <string name="calculate">計算</string>
+    <string name="round_up_tip">小数点切り上げ</string>
+    <string name="tip_amount">酒税額: %s</string>
+</resources>
