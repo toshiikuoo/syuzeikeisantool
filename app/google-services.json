@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "703235886473",
+    "firebase_url": "https://syuzeikeisan.firebaseio.com",
+    "project_id": "syuzeikeisan",
+    "storage_bucket": "syuzeikeisan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703235886473:android:fe32e796c9b118b6152558",
+        "android_client_info": {
+          "package_name": "toshiikuo.raywenderlich.tiptime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703235886473-vvh4od7mdihiu0j09jdikflm8fuckois.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtlfSvNV4XJNoiBisaao3jgbHOqpx9Zd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703235886473-vvh4od7mdihiu0j09jdikflm8fuckois.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
