@@ -3,6 +3,7 @@ package android.raywenderlich.tiptime
 import android.os.Bundle
 import android.raywenderlich.tiptime.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.ads.MobileAds
 import java.text.NumberFormat
 
 class MainActivity : AppCompatActivity() {
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.calculateButton.setOnClickListener{ calculateTip() }
-//        MobileAds.initialize(this) {}
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713")
 
     }
 

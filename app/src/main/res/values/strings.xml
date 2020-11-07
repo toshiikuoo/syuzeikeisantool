@@ -9,4 +9,5 @@
     <string name="calculate">計算</string>
     <string name="round_up_tip">小数点切り上げ</string>
     <string name="tip_amount">酒税額: %s</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
 </resources>
