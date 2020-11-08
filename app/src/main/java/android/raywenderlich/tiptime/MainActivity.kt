@@ -5,6 +5,8 @@ import android.raywenderlich.tiptime.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.MobileAds
 import java.text.NumberFormat
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.calculateButton.setOnClickListener{ calculateTip() }
         MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713")
+
+        val adRequest = AdRequest.Builder().build()
+        binding.adView.loadAd(adRequest)
 
     }
 
